@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Александр Цыганчук](https://up.htmlacademy.ru/htmlcss/22/user/774281).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Рогатнев] (https://htmlacademy.ru/profile/nikita_rogatnev).
 
 ---
 
