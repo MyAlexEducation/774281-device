@@ -213,14 +213,26 @@
       </div>
     </footer>
 
-    <section class="modal">
+    <section class="modal modal-feedback">
       <h2 class="visually-hidden">Напишите нам</h2>
-      <span class="modal-close">x</span>
+      <form method="post" action="https://echo.htmlacademy.ru" class="modal-feedback-form">
+        <p class="left-column"><label for="modal-feedback-form-name">Ваше имя:</label>
+        <input type="text" name="name" id="modal-feedback-form-name"></p>
+        <p class="right-column"><label for="modal-feedback-form-email">Ваш e-mail:</label>
+        <input type="email" name="email" id="modal-feedback-form-email"></p>
+        <p><label for="modal-feedback-form-letter">Текст письма:</label>
+        <textarea name="letter" id="modal-feedback-form-letter"></textarea></p>
+        <button type="submit">Отправить</button>
+      </form>
+      <button type="button" class="modal-close">Закрыть</button>
     </section>
 
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
-      <span class="modal-close">x</span>
+      <p>
+        <img src="img/map-big.jpg" alt="Офис компании по адресу ул. Строителей д. 15 г. Москва" width="960" height="559">
+      </p>
+      <button type="button" class="modal-close">Закрыть</button>
     </section>
   </body>
 </html>
