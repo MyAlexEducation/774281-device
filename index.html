@@ -12,16 +12,16 @@
         <img src="img/header-logo.svg" alt="логотип магазина Device" width="165" height="36">
       </a>
       <nav class="main-navigation">
-        <ul class="user-navigation">
+        <ul class="header-user-navigation">
           <li><a href="#">Войти</a></li>
         </ul>
-        <ul class="buy-navigation">
+        <ul class="header-buy-navigation">
           <li><a href="#">Сравнить</a></li>
           <li><a href="#">Корзина</a></li>
         </ul>
-        <ul class="site-navigation">
+        <ul class="header-site-navigation">
           <li><a href="#">Каталог товаров</a>
-            <ul class="product-type-list">
+            <ul class="header-product-type-list">
               <li><a href="#">Виртуальная реальность</a></li>
               <li><a href="catalog_monopod.html">Моноподы для селфи</a></li>
               <li><a href="#">Экшн-камеры</a></li>
@@ -42,7 +42,7 @@
         <h2 class="visually-hidden">Обратите внимание на эти товары</h2>
         <ul class="promotion-list">
           <li class="promotion-item">
-            <span class="promotion-nmber">01</span>
+            <span class="promotion-number">01</span>
             <img class="promotion-photo" src="img/slide-promo-1.png" alt="" width="560" height="497">
             <section class="promotion-description">
               <h3>Делай селфи,<br>
@@ -64,7 +64,7 @@
             <a href="#" class="btn">Подробнее</a>
           </li>
           <li class="promotion-item">
-            <span class="promotion-nmber">02</span>
+            <span class="promotion-number">02</span>
             <img class="promotion-photo" src="img/slide-promo-2.png" alt="" width="560" height="497">
             <section class="promotion-description">
               <h3>Худеем<br>
@@ -83,7 +83,7 @@
             <a href="#" class="btn">Подробнее</a>
           </li>
           <li class="promotion-item">
-            <span class="promotion-nmber">03</span>
+            <span class="promotion-number">03</span>
             <img class="promotion-photo" src="img/slide-promo-3.png" alt="" width="560" height="497">
             <section class="promotion-description">
               <h3>Порхает как бабочка,<br>
@@ -110,9 +110,9 @@
           <li><button type="button" class="promotion-btn"></button></li>
         </ul>
       </section>
-      <section class="product-navigation">
+      <section class="main-product-navigation">
         <h2 class="visually-hidden">Мы предлагаем:</h2>
-        <ul class="product-type-list">
+        <ul class="main-product-type-list">
           <li><a href="#">Виртуальная реальность</a></li>
           <li><a href="catalog_monopod.html">Моноподы для селфи</a></li>
           <li><a href="#">Экшн-камеры</a></li>
@@ -218,11 +218,11 @@
       <h2 class="visually-hidden">Напишите нам</h2>
       <form method="post" action="https://echo.htmlacademy.ru" class="modal-feedback-form">
         <p class="left-column"><label for="modal-feedback-form-name">Ваше имя:</label>
-        <input type="text" name="name" id="modal-feedback-form-name"></p>
+        <input type="text" name="name" id="modal-feedback-form-name" placeholder="Имя Фамилия"></p>
         <p class="right-column"><label for="modal-feedback-form-email">Ваш e-mail:</label>
-        <input type="email" name="email" id="modal-feedback-form-email"></p>
+        <input type="email" name="email" id="modal-feedback-form-email" placeholder="email@example.com"></p>
         <p><label for="modal-feedback-form-letter">Текст письма:</label>
-        <textarea name="letter" id="modal-feedback-form-letter"></textarea></p>
+        <textarea name="letter" id="modal-feedback-form-letter" placeholder="В свободной форме"></textarea></p>
         <button type="submit">Отправить</button>
       </form>
       <button type="button" class="modal-close">Закрыть</button>
