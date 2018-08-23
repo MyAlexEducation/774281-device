@@ -79,6 +79,13 @@ body {
   border: none;
 }
                            /************ШРИФТЫ************/
+body {
+  font-family:"Open Sans", "Arial, sans-serif";
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: rgba(0,0,0,1);
+}
 .btn {
   font-family: "Gilroy", "Arial, sans-serif";
   font-size: 18px;
