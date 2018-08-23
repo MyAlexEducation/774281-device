@@ -18,7 +18,7 @@
         </form>
         <ul class="header-user-navigation">
           <li><a href="#">Валентин Петухов</a></li>
-          <li><a href="#">Выйти</a></li>
+          <li><a href="#" class="exit">Выйти</a></li>
         </ul>
         <ul class="header-buy-navigation">
           <li><a href="#">Сравнить</a></li>
@@ -56,7 +56,18 @@
           <form method="post" action="https://echo.htmlacademy.ru" class="catalog-filters-form">
             <fieldset class="filters-price">
               <legend>Стоимость</legend>
-              <input type="range" name="price">
+              <div class="filters-price-range">
+                <span></span>
+                <span></span>
+              </div>
+              <p>
+                <label for=catalog-filters-form-min-price"">От</label>
+                <input type="number" name="min-price" class="min-price" id="catalog-filters-form-min-price" placeholder="0">
+              </p>
+              <p>
+                <label for="catalog-filters-form-max-price">До</label>
+                <input type="number" name="max-price" class="max-price" id="catalog-filters-form-max-price" placeholder="500">
+              </p>
             </fieldset>
             <fieldset class="filters-color">
               <legend>Цвет</legend>

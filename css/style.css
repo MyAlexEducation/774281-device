@@ -283,6 +283,7 @@ main>h1 {
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 0.2em;
+  color: rgba(0,0,0,1);
 }
 .catalog-filters-form legend {
   font-family: "Gilroy", sans-serif, "Arial";
@@ -297,6 +298,15 @@ main>h1 {
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
+}
+.filters-price label,
+.filters-price input,
+.filters-price input::placeholder {
+  font-family: "Gilroy", sans-serif, "Arial";
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: rgba(0,0,0,0.2);
 }
 /*catalog-sort*/
 .catalog-sort h3 {
