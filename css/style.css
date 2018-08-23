@@ -323,7 +323,7 @@ body {
   color: rgba(70,70,70,1);
 }
 /*main catalog*/
-main>h1 {
+.catalog-page-header {
   font-family: "Gilroy", "Arial, sans-serif";
   font-size: 47px;
   font-weight: 800;
