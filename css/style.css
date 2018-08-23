@@ -67,6 +67,15 @@ body {
 {
   text-decoration: none;
 }
+.header-find-form input[type="text"],
+.header-find-form button,
+.filters-price input,
+.modal-feedback-form input,
+.modal-feedback-form textarea
+{
+  outline: none;
+  border: none;
+}
                            /************ШРИФТЫ************/
 /*header*/
 .main-navigation a {
@@ -462,6 +471,19 @@ body {
 .main-header {
   background-color: rgba(247,226,150,0.5);
 }
+.header-find-form input[type="text"] {
+  background-color: transparent;
+}
+.header-find-form button {
+  background-color: transparent;
+}
+.header-find-form button:hover,
+.header-find-form button:focus {
+  background-color: rgba(0,0,0,1);
+}
+.header-find-form button:active {
+  background-color: rgba(0,0,0,1);
+}
 /*footer*/
 .main-footer {
   background-color: rgba(70,70,70,1);
@@ -496,6 +518,9 @@ body {
 .filters form {
   background-color: rgba(238,238,238,1);
 }
+.filters input {
+  background-color: transparent;
+}
 .catalog-sort {
   background-color: rgba(235,235,235,1);
 }
@@ -506,3 +531,16 @@ body {
 .modal-feedback {
   background-color: rgba(255,255,255,1);
 }
+.modal-feedback input,
+.modal-feedback textarea {
+  background-color: rgba(242,242,242,1);
+}
+.modal-feedback input:hover,
+.modal-feedback textarea:hover {
+  background-color: rgba(234,234,234,1);
+}
+.modal-feedback input:focus,
+.modal-feedback textarea:focus {
+  background-color: rgba(255,255,255,1);
+}
+                                 /*******OUTLINE И BORDER**********/
