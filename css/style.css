@@ -80,7 +80,7 @@ body {
 }
                            /************ШРИФТЫ************/
 .btn {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.2em;
@@ -113,7 +113,7 @@ body {
   color: rgba(0,0,0,1);
 }
 .header-find-form input {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -129,7 +129,7 @@ body {
   color: rgba(0,0,0,1);
 }
 .header-find-form button {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -143,20 +143,20 @@ body {
 }
 .header-user-navigation,
 .header-buy-navigation {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.1em;
 }
 .header-site-navigation {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 .header-product-type-list {
-  font-family: "Open Sans", sans-serif, "Arial";
+  font-family: "Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.1em;
@@ -167,13 +167,13 @@ body {
   color: rgba(255,255,255,1);
 }
 .main-footer .score-address {
-  font-family: "Open Sans", sans-serif, "Arial";
+  font-family: "Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
 }
 .footer-site-navigation {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.2em;
@@ -190,7 +190,7 @@ body {
 }
 .footer-user-navigation,
 .footer-buy-navigation {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.1em;
@@ -210,7 +210,7 @@ body {
   color: rgba(255,255,255,0.3);
 }
 .footer-score-tel {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
@@ -218,35 +218,35 @@ body {
 /*main index*/
   /*promotion*/
 .promotion-number {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 179.2px;
   font-weight: 800;
   letter-spacing: 0.1em;
   color: rgba(255,255,255,1);
 }
 .promotion-description h3{
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 47px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
 }
 .promotion-description p {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(70,70,70,1);
 }
 .promotion-properties th {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 13px;
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(70,70,70,1);
 }
 .promotion-properties td {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 47px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -256,7 +256,7 @@ body {
 .main-product-type-list a,
 .main-product-type-list a:hover,
 .main-product-type-list a:focus {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.01em;
@@ -267,14 +267,14 @@ body {
 }
 /*services*/
 .service-item h3{
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 47px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
 }
 .service-item p {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -287,21 +287,21 @@ body {
 }
 /*about-us*/
 .about-us h2 {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 47px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
 }
 .about-us p {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
   color: rgba(70,70,70,1);
 }
 .about-us .delivering-item {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 0;
@@ -309,14 +309,14 @@ body {
 }
 /*contacts*/
 .contacts h2 {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 47px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
 }
 .contacts p {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
@@ -324,7 +324,7 @@ body {
 }
 /*main catalog*/
 main>h1 {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 47px;
   font-weight: 800;
   letter-spacing: 0.01em;
@@ -332,7 +332,7 @@ main>h1 {
 }
 /*breadcrumbs*/
 .breadcrumbs a{
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -350,21 +350,21 @@ main>h1 {
 }
 /*filters*/
 .filters h3 {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 0.2em;
   color: rgba(0,0,0,1);
 }
 .catalog-filters-form legend {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
 }
 .catalog-filters-form label {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -373,7 +373,7 @@ main>h1 {
 .filters-price label,
 .filters-price input,
 .filters-price input::placeholder {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0;
@@ -381,14 +381,14 @@ main>h1 {
 }
 /*catalog-sort*/
 .catalog-sort h3 {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 0.2em;
   color: rgba(0,0,0,1);
 }
 .sort-type-item a{
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -406,7 +406,7 @@ main>h1 {
 }
 /*catalog-list*/
 .catalog-item-action a:not(.btn){
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -420,7 +420,7 @@ main>h1 {
   color: rgba(0,0,0,0.2);
 }
 .catalog-item-name a {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.01em;
@@ -431,7 +431,7 @@ main>h1 {
   text-decoration: underline;
 }
 .catalog-item p {
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -439,7 +439,7 @@ main>h1 {
 }
 /*pagination-list*/
 .pagination-item a{
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 0.2em;
@@ -467,7 +467,7 @@ main>h1 {
 }
 /*modal*/
 .modal-feedback-form label{
-  font-family: "Gilroy", sans-serif, "Arial";
+  font-family: "Gilroy", "Arial, sans-serif";
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0;
@@ -475,7 +475,7 @@ main>h1 {
 }
 .modal-feedback-form input,
 .modal-feedback-form textarea {
-  font-family:"Open Sans", sans-serif, "Arial";
+  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
