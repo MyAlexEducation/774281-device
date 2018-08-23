@@ -29,7 +29,44 @@
     url(../fonts/opensanslight.woff) format("woff");
   font-weight: 300;
 }
+                           /********СБРОСЫ СТИЛЕЙ********/
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-navigation ul,
+.promotion-list,
+.promotion-btn-list,
+.main-product-type-list,
+.service-button-list,
+.service-list,
+.brand-list,
+.footer-site-navigation,
+.footer-social-navigation,
+.footer-user-navigation,
+.footer-buy-navigation,
+.breadcrumbs,
+.catalog-filters-form ul,
+.catalog-sort ul,
+.catalog-list,
+.pagination-list
+{
+  list-style: none;
+}
 
+.main-navigation a,
+.main-product-navigation a,
+.footer-site-navigation a,
+.footer-social-navigation a,
+.footer-user-navigation a,
+.footer-buy-navigation a,
+.breadcrumbs a,
+.sort-type-list a,
+.catalog-item a,
+.pagination-list a
+{
+  text-decoration: none;
+}
                            /************ШРИФТЫ************/
 /*header*/
 .main-navigation a {
@@ -98,7 +135,6 @@
 /*footer*/
 .main-footer{
   color: rgba(255,255,255,1);
-  background-color: black;
 }
 .main-footer .score-address {
   font-family: "Open Sans", sans-serif, "Arial";
@@ -348,12 +384,16 @@ main>h1 {
 .catalog-item-action a:not(.btn):active {
   color: rgba(0,0,0,0.2);
 }
-.catalog-item h1 {
+.catalog-item-name a {
   font-family: "Gilroy", sans-serif, "Arial";
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
+}
+.catalog-item-name a:hover,
+.catalog-item-name a:focus {
+  text-decoration: underline;
 }
 .catalog-item p {
   font-family: "Gilroy", sans-serif, "Arial";
@@ -414,3 +454,55 @@ main>h1 {
 .modal-feedback-form textarea:invalid {
    color: rgba(70,70,70,0.4);
  }
+                                     /********ФОНЫ**********/
+body {
+  background-color: rgba(255,255,255,1);
+}
+/*header*/
+.main-header {
+  background-color: rgba(247,226,150,0.5);
+}
+/*footer*/
+.main-footer {
+  background-color: rgba(70,70,70,1);
+}
+/*index-main*/
+.promotion {
+  background-image: linear-gradient(to bottom,
+    rgba(247,226,150,0.5) 105px,
+    transparent 105px, transparent 100%);
+}
+.main-product-navigation {
+  background-color: rgba(255,255,255,1);
+}
+.services {
+  background-image: linear-gradient(to bottom,
+    rgba(255,255,255,1) 100px,
+    rgba(229,229,229,1) 100px, rgba(229,229,229,1) 100%);
+}
+.brands {
+  background-color: rgba(255,255,255,1);
+}
+.about-us {
+  background-color: rgba(255,255,255,1);
+}
+.contacts {
+  background-color: rgba(255,255,255,1);
+}
+/*catalog-main*/
+.filters h3 {
+  background-color: rgba(219,219,219,1);
+}
+.filters form {
+  background-color: rgba(238,238,238,1);
+}
+.catalog-sort {
+  background-color: rgba(235,235,235,1);
+}
+.pagination-list {
+  background-color: rgba(235,235,235,1);
+}
+/*modal*/
+.modal-feedback {
+  background-color: rgba(255,255,255,1);
+}
