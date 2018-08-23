@@ -99,7 +99,7 @@ body {
 .main-navigation a {
   color: rgba(0,0,0,1);
 }
-.main-navigation a.exit {
+.main-navigation .exit {
   color: rgba(0,0,0,0.3);
 }
 .main-navigation a:hover,
