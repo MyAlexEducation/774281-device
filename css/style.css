@@ -63,7 +63,8 @@ body {
 .breadcrumbs a,
 .sort-type-list a,
 .catalog-item a,
-.pagination-list a
+.pagination-list a,
+.btn
 {
   text-decoration: none;
 }
@@ -71,15 +72,35 @@ body {
 .header-find-form button,
 .filters-price input,
 .modal-feedback-form input,
-.modal-feedback-form textarea
+.modal-feedback-form textarea,
+.btn
 {
   outline: none;
   border: none;
 }
                            /************ШРИФТЫ************/
+.btn {
+  font-family: "Gilroy", sans-serif, "Arial";
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,1);
+}
+.btn:hover,
+.btn:focus
+{
+  color: rgba(0,0,0,1);
+}
+.btn:active {
+  color: rgba(0,0,0,0.3);
+}
 /*header*/
 .main-navigation a {
   color: rgba(0,0,0,1);
+}
+.main-navigation a.exit {
+  color: rgba(0,0,0,0.3);
 }
 .main-navigation a:hover,
 .main-navigation a:focus {
@@ -258,6 +279,11 @@ body {
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(70,70,70,1);
+}
+.service-button-list .btn.current,
+.service-button-list .btn:active
+{
+  color: rgba(247,225,132,1);
 }
 /*about-us*/
 .about-us h2 {
@@ -467,6 +493,18 @@ main>h1 {
 body {
   background-color: rgba(255,255,255,1);
 }
+.btn {
+  background-color: transparent;
+  background-image: url(../img/yellow-line.png);
+  background-repeat: repeat no-repeat;
+  background-position: center;
+}
+.btn:hover,
+.btn:focus,
+.btn:active
+{
+  background-color: rgba(240,197,46);
+}
 /*header*/
 .main-header {
   background-color: rgba(247,226,150,0.5);
@@ -501,6 +539,12 @@ body {
   background-image: linear-gradient(to bottom,
     rgba(255,255,255,1) 100px,
     rgba(229,229,229,1) 100px, rgba(229,229,229,1) 100%);
+}
+.service-button-list .btn.current,
+.service-button-list .btn:active
+{
+  background-color: rgba(0,0,0,1);
+  background-size: 0;
 }
 .brands {
   background-color: rgba(255,255,255,1);
@@ -543,4 +587,24 @@ body {
 .modal-feedback textarea:focus {
   background-color: rgba(255,255,255,1);
 }
+.modal-feedback input:invalid,
+.modal-feedback textarea:invalid {
+  background-color: rgba(246,218,218,1);
+}
                                  /*******OUTLINE И BORDER**********/
+.header-find-form input[type="text"] {
+  border-bottom: 2px solid transparent;/*Что бы не дёргалось*/
+}
+.header-find-form input[type="text"]:focus {
+  border-bottom: 2px solid rgba(0,0,0,1);
+}
+.header-find-form button {
+  border: 2px solid rgba(0,0,0,1);
+}
+.catalog-filters-form fieldset {
+  border: none;
+}
+.modal-feedback input:focus,
+.modal-feedback textarea:focus {
+  outline: 3px solid rgba(240,197,46,1);
+}
