@@ -107,6 +107,10 @@ body {
 .header-buy-navigation{
   margin-left: auto;
 }
+.header-buy-navigation {
+  display: flex;
+  justify-content: flex-end;
+}
 .header-site-navigation {
   display: flex;
 }
@@ -122,9 +126,10 @@ body {
 .header-product-type-list {
   position: relative;
   width: 640px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .header-product-type-list li {
-  display: inline-block;
   width: 160px;
   margin-right: 40px;
 }
@@ -170,7 +175,7 @@ body {
   width: 460px;
   display: flex;
   flex-direction: column-reverse;
-  border-collapse: collapse;
+
 }
 .promotion-properties tr {
   display: flex;
@@ -183,6 +188,12 @@ body {
 .promotion-properties td:nth-child(2),
 .promotion-properties th:nth-child(2){
   width: 140px
+}
+/*Возможно временно*/
+.promotion::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
                            /************ШРИФТЫ************/
