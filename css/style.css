@@ -132,7 +132,32 @@ body {
   width: 200px;
 }
 /*footer*/
-
+.main-footer .center-container{
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-right,
+.footer-left {
+  width: 360px;
+}
+.footer-center {
+  width: 440px;
+}
+.footer-site-navigation {
+  display: flex;
+  justify-content: center;
+}
+.footer-social-navigation {
+  display: flex;
+  justify-content: center;
+}
+.footer-left .flex-container {
+  justify-content: flex-end;
+}
+/*index-main*/
+/*promotion*/
 
                            /************ШРИФТЫ************/
 
