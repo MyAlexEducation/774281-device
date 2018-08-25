@@ -158,6 +158,32 @@ body {
 }
 /*index-main*/
 /*promotion*/
+.promotion {
+  width: 1040px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+.promotion-item img {
+  float: left;
+}
+.promotion-properties tbody{
+  width: 460px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-collapse: collapse;
+}
+.promotion-properties tr {
+  display: flex;
+}
+.promotion-properties td,
+.promotion-properties th
+ {
+  width: 160px;
+}
+.promotion-properties td:nth-child(2),
+.promotion-properties th:nth-child(2){
+  width: 140px
+}
 
                            /************ШРИФТЫ************/
 
@@ -338,7 +364,7 @@ body {
 }
 .promotion-properties td {
   font-family: "Gilroy", "Arial, sans-serif";
-  font-size: 47px;
+  font-size: 36px;
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
