@@ -34,7 +34,10 @@ body {
   margin: 0;
   padding: 0;
 }
-.main-navigation ul,
+.header-user-navigation,
+.header-buy-navigation,
+.header-site-navigation,
+.header-product-type-list,
 .promotion-list,
 .promotion-btn-list,
 .main-product-type-list,
@@ -52,6 +55,8 @@ body {
 .pagination-list
 {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .main-navigation a,
@@ -68,7 +73,7 @@ body {
 {
   text-decoration: none;
 }
-.header-find-form input[type="text"],
+.header-find-form input,
 .header-find-form button,
 .filters-price input,
 .modal-feedback-form input,
@@ -78,13 +83,66 @@ body {
   outline: none;
   border: none;
 }
+                           /********СЕТКИ************/
+body {
+  /*временно для перфект пиксель*/
+  width: 1440px;
+  padding-top: 40px;
+}
+/*header*/
+.main-header {
+  margin: 0 auto;
+  width: 1040px;
+  padding:0 60px;
+}
+.flex-container{
+  display: flex;
+}
+.header-find-form{
+  width: 50%;
+}
+.header-user-navigation{
+  margin-left: 20px;
+}
+.header-buy-navigation{
+  margin-left: auto;
+}
+.header-site-navigation {
+  display: flex;
+}
+.header-site-navigation>.left-column {
+  width: 50%;
+}
+.header-site-navigation>.central-column {
+  margin-left: 20px;
+}
+.header-site-navigation>.right-column {
+  margin-left: auto;
+}
+.header-product-type-list {
+  position: relative;
+  width: 640px;
+}
+.header-product-type-list li {
+  display: inline-block;
+  width: 160px;
+  margin-right: 40px;
+}
+.header-product-type-list .left-column {
+  width: 200px;
+}
+/*footer*/
+
+
                            /************ШРИФТЫ************/
+
 body {
   font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0;
   color: rgba(0,0,0,1);
+  line-height: 30px;
 }
 .btn {
   font-family: "Gilroy", "Arial, sans-serif";
@@ -93,6 +151,7 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(0,0,0,1);
+  line-height: ;
 }
 .btn:hover,
 .btn:focus
@@ -166,7 +225,7 @@ body {
   font-family: "Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.01em;
   text-transform: none;
 }
 /*footer*/
