@@ -88,6 +88,16 @@ body {
   padding: 0;
   padding-top: 40px;
 }
+.container{
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+/*Временно для сеток*/
+.visually-hidden {
+  display: none;
+}
 /*header*/
 .main-header {
   margin: 0 auto;
@@ -136,11 +146,9 @@ body {
   width: 200px;
 }
 /*footer*/
-.main-footer .container{
-  width: 1160px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+.main-footer {
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 .footer-right,
 .footer-left {
@@ -157,7 +165,11 @@ body {
   display: flex;
   justify-content: center;
 }
-.footer-left .flex-container {
+.footer-right .flex-container {
+  justify-content: flex-end;
+}
+.footer-buy-navigation {
+  display: flex;
   justify-content: flex-end;
 }
 /*index-main*/
@@ -169,6 +181,10 @@ body {
 }
 .promotion-item img {
   float: left;
+}
+/*избегаем выпадания margin*/
+.promotion h3{
+  margin-top: 0;
 }
 .promotion-properties tbody{
   width: 460px;
@@ -205,12 +221,8 @@ body {
   width: 160px;
 }
 /*services*/
-.services h2 {
-  /*Временно*/
-  width: 0;
-}
 .services {
-  width 1160px;
+  width: 1160px;
   margin: 0 auto;
   display: flex;
 }
@@ -219,6 +231,18 @@ body {
 }
 .service-list {
   width: 880px;
+}
+.service-button-list,
+.service-list {
+  padding-top: 80px;
+}
+.service-button-list .service-button{
+  width: 160px;
+}
+.service-button-list .service-button:active,
+.service-button-list .service-button.current {
+  width: 280px;
+  padding-right: 120px;
 }
 /*brands*/
 .brand-list {
@@ -231,14 +255,9 @@ body {
   width: 260px;
 }
 /*about-us, contacts*/
-.index-columns {
-  width: 1160px;
-  margin: 0 auto;
-  display: flex;
-}
-.index-columns .about-us,
-.index-columns .contacts {
-  width: 580px;
+.about-us,
+.contacts {
+  width: 560px;
 }
 /*catalog-page*/
 /*breadcrumbs*/
@@ -252,13 +271,6 @@ body {
   display: flex;
 }
 /*catalog*/
-{
-  display: flex;
-}
-/*Временно*/
-.catalog>h2 {
-  width: 0;
-}
 .catalog {
   width: 1160px;
   margin: 0 auto;
@@ -271,8 +283,6 @@ body {
 }
 .catalog-rows {
   width: 830px;
-  display: flex;
-  flex-direction: column;
 }
 .catalog-sort,
 .sort-type-list,
@@ -321,7 +331,10 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(0,0,0,1);
-  line-height: ;
+  line-height: 24px;
+  text-align: center;
+
+  padding-top:;
 }
 .btn:hover,
 .btn:focus
@@ -450,6 +463,7 @@ body {
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
+  text-align: right;
 }
 /*main index*/
   /*promotion*/
