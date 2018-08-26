@@ -95,7 +95,8 @@ body {
   justify-content: space-between;
 }
 /*Временно для сеток*/
-.visually-hidden {
+.visually-hidden,
+.modal {
   display: none;
 }
 /*header*/
@@ -183,8 +184,10 @@ body {
   float: left;
 }
 /*избегаем выпадания margin*/
-.promotion h3{
-  margin-top: 0;
+.promotion::before {
+  content: "";
+  display: block;
+  border-top: 1px solid transparent;
 }
 .promotion-properties tbody{
   width: 460px;
