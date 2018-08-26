@@ -234,7 +234,11 @@ body {
   width: 280px;
 }
 .service-list {
-  width: 880px;
+  width: 760px;
+  padding-left: 120px;
+}
+.service-list h3 {
+  margin-top: 0;
 }
 .service-button-list,
 .service-list {
