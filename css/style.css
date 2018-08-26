@@ -365,7 +365,6 @@ body {
   color: rgba(0,0,0,1);
 }
 .header-find-form input {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -381,7 +380,6 @@ body {
   color: rgba(0,0,0,1);
 }
 .header-find-form button {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -395,7 +393,6 @@ body {
 }
 .header-user-navigation,
 .header-buy-navigation {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.1em;
@@ -408,7 +405,6 @@ body {
   text-transform: uppercase;
 }
 .header-product-type-list {
-  font-family: "Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -419,7 +415,6 @@ body {
   color: rgba(255,255,255,1);
 }
 .main-footer .score-address {
-  font-family: "Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
@@ -442,7 +437,6 @@ body {
 }
 .footer-user-navigation,
 .footer-buy-navigation {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.1em;
@@ -462,7 +456,6 @@ body {
   color: rgba(255,255,255,0.3);
 }
 .footer-score-tel {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
@@ -485,7 +478,6 @@ body {
   color: rgba(0,0,0,1);
 }
 .promotion-description p {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -527,7 +519,6 @@ body {
   color: rgba(0,0,0,1);
 }
 .service-item p {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -547,7 +538,6 @@ body {
   color: rgba(0,0,0,1);
 }
 .about-us p {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
@@ -569,7 +559,6 @@ body {
   color: rgba(0,0,0,1);
 }
 .contacts p {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0;
@@ -585,7 +574,6 @@ body {
 }
 /*breadcrumbs*/
 .breadcrumbs a{
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -617,7 +605,6 @@ body {
   color: rgba(0,0,0,1);
 }
 .catalog-filters-form label {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -641,7 +628,6 @@ body {
   color: rgba(0,0,0,1);
 }
 .sort-type-item a{
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -659,7 +645,6 @@ body {
 }
 /*catalog-list*/
 .catalog-item-action a:not(.btn){
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -728,7 +713,6 @@ body {
 }
 .modal-feedback-form input,
 .modal-feedback-form textarea {
-  font-family:"Open Sans", "Arial, sans-serif";
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
