@@ -240,8 +240,68 @@ body {
 .index-columns .contacts {
   width: 580px;
 }
-
-                           /************ШРИФТЫ************/
+/*catalog-page*/
+/*breadcrumbs*/
+.catalog-page-header {
+  width: 800px;
+  margin: 0 auto;
+}
+.breadcrumbs {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+/*catalog*/
+{
+  display: flex;
+}
+/*Временно*/
+.catalog>h2 {
+  width: 0;
+}
+.catalog {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+}
+.filters {
+  width: 200px;
+  padding-left: 60px;
+  padding-right: 70px;
+}
+.catalog-rows {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+}
+.catalog-sort,
+.sort-type-list,
+.sort-range-list
+ {
+  display: flex;
+}
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 69px;
+  padding-left: 72px;
+}
+.catalog-item {
+  width: 360px;
+}
+.pagination-list {
+  display: flex;
+  justify-content: center;
+  margin-left: 72px;
+}
+.pagination-list li:first-child {
+  margin-right: auto;
+}
+.pagination-list li:last-child {
+  margin-left: auto;
+}
+                       /************ШРИФТЫ************/
 
 body {
   font-family:"Open Sans", "Arial, sans-serif";
@@ -730,11 +790,11 @@ body {
   background-color: rgba(255,255,255,1);
 }
 /*catalog-main*/
+.filters {
+  background-color: rgba(238,238,238,1);
+}
 .filters h3 {
   background-color: rgba(219,219,219,1);
-}
-.filters form {
-  background-color: rgba(238,238,238,1);
 }
 .filters input {
   background-color: transparent;
