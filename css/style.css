@@ -113,6 +113,7 @@ body {
 }
 .header-user-navigation{
   margin-left: 20px;
+  display: flex;
 }
 .header-buy-navigation{
   margin-left: auto;
