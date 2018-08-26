@@ -30,10 +30,6 @@
   font-weight: 300;
 }
                            /********СБРОСЫ СТИЛЕЙ********/
-body {
-  margin: 0;
-  padding: 0;
-}
 .header-user-navigation,
 .header-buy-navigation,
 .header-site-navigation,
@@ -87,6 +83,9 @@ body {
 body {
   /*временно для перфект пиксель*/
   width: 1440px;
+
+  margin: 0;
+  padding: 0;
   padding-top: 40px;
 }
 /*header*/
@@ -137,7 +136,7 @@ body {
   width: 200px;
 }
 /*footer*/
-.main-footer .center-container{
+.main-footer .container{
   width: 1160px;
   margin: 0 auto;
   display: flex;
@@ -195,6 +194,52 @@ body {
   display: block;
   clear: both;
 }
+/*main-product-navigation*/
+.main-product-type-list {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.main-product-type-list li {
+  width: 160px;
+}
+/*services*/
+.services h2 {
+  /*Временно*/
+  width: 0;
+}
+.services {
+  width 1160px;
+  margin: 0 auto;
+  display: flex;
+}
+.service-button-list {
+  width: 280px;
+}
+.service-list {
+  width: 880px;
+}
+/*brands*/
+.brand-list {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.brand-list li {
+  width: 260px;
+}
+/*about-us, contacts*/
+.index-columns {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+}
+.index-columns .about-us,
+.index-columns .contacts {
+  width: 580px;
+}
 
                            /************ШРИФТЫ************/
 
@@ -203,7 +248,10 @@ body {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0;
+
   color: rgba(0,0,0,1);
+  background-color: rgba(255,255,255,1);
+
   line-height: 30px;
 }
 .btn {
@@ -618,9 +666,7 @@ body {
    color: rgba(70,70,70,0.4);
  }
                                      /********ФОНЫ**********/
-body {
-  background-color: rgba(255,255,255,1);
-}
+
 .btn {
   background-color: transparent;
   background-image: url(../img/yellow-line.png);
