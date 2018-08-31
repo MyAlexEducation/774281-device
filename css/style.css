@@ -126,6 +126,7 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   width: 1040px;
   padding:0 60px;
+  padding-bottom: 55px;
 }
 .header-logo {
   margin-bottom: 8px;
@@ -279,8 +280,10 @@ input[type="radio"].visually-hidden {
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 800;
   font-size: 179.2px;
+  height: 130px;
   color: rgba(255,255,255,1.0);
   letter-spacing: 0.01em;
+  vertical-align: middle;
 }
 .promotion-item img {
   float: left;
@@ -353,12 +356,18 @@ input[type="radio"].visually-hidden {
   padding-top: 195px;
 }
 /*services*/
+.services {
+  padding-bottom: 70px;
+}
 .service-button-list {
   width: 280px;
 }
 .service-list {
   width: 760px;
   padding-left: 120px;
+}
+.service-item p {
+  width: 430px;
 }
 /*временно скрываем не текущие слайды*/
 .promotion-item:not(.current),
@@ -1069,6 +1078,21 @@ body {
   background-color: rgba(0,0,0,1);
   background-size: 0;
 }
+.service-item:nth-child(1) {
+  background-image: url(../img/delivery.svg);
+  background-repeat: no-repeat;
+  background-position: 550px 5px;
+}
+.service-item:nth-child(2) {
+  background-image: url(../img/warranty.svg);
+  background-repeat: no-repeat;
+  background-position: 550px 5px;
+}
+.service-item:nth-child(3) {
+  background-image: url(../img/credit.svg);
+  background-repeat: no-repeat;
+  background-position: 550px 5px;
+}
 .brands {
   background-color: rgba(255,255,255,1);
 }
@@ -1123,6 +1147,9 @@ body {
 }
 .header-find-form button {
   border: 2px solid rgba(0,0,0,1);
+}
+.service-button-list {
+  border-right: 7px solid rgba(0,0,0,1.0);
 }
 .catalog-filters-form fieldset {
   border: none;
