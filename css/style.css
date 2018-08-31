@@ -126,6 +126,13 @@ input[type="radio"].visually-hidden {
   width: 1040px;
   padding:0 60px;
 }
+.header-find-form button{
+  display: none;
+}
+.header-find-form button:active,
+.header-find-form input:focus+button {
+  display: inline-block;
+}
 .flex-container{
   display: flex;
 }
@@ -253,6 +260,11 @@ input[type="radio"].visually-hidden {
   width: 760px;
   padding-left: 120px;
 }
+/*временно скрываем не текущие слайды*/
+.promotion-item:not(.current),
+.service-item:not(.current) {
+  display: none;
+}
 .service-list h3 {
   margin-top: 0;
 }
@@ -371,6 +383,11 @@ body {
 /*header*/
 .main-navigation a {
   color: rgba(0,0,0,1);
+}
+.header-find-form,
+.header-user-navigation,
+.header-buy-navigation {
+  line-height: 30px;
 }
 .main-navigation .exit {
   color: rgba(0,0,0,0.3);
