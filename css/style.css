@@ -74,7 +74,8 @@
 .filters-price input,
 .modal-feedback-form input,
 .modal-feedback-form textarea,
-.btn
+.btn,
+.promotion-btn
 {
   outline: none;
   border: none;
@@ -191,6 +192,7 @@ input[type="radio"].visually-hidden {
 }
 .header-site-navigation>li:first-child {
   width: 50%;
+  position: relative;
 }
 .header-site-navigation>li:first-child>a{
   display: inline-block;
@@ -209,11 +211,14 @@ input[type="radio"].visually-hidden {
 .header-product-type-list {
   position: absolute;
   width: 640px;
+  top 0;
+  left: 0;
   display: flex;
   flex-wrap: wrap;
   opacity: 0;
 }
 .top-menu:hover .header-product-type-list {
+  z-index: 1;
   opacity: 1;
 }
 .header-product-type-list li {
@@ -253,12 +258,54 @@ input[type="radio"].visually-hidden {
 /*index-main*/
 /*promotion*/
 .promotion {
-  width: 1040px;
-  padding: 0 60px;
+  width: 1100px;
+  padding-right: 60px;
   margin: 0 auto;
+  position: relative;
+}
+.promotion-list {
+  counter-reset: number-slide;
+}
+.promotion-item {
+  counter-increment: number-slide;
+  position: relative;
+}
+.promotion-item::before {
+  position: absolute;
+  content: counter(number-slide, decimal-leading-zero);
+  right: 0;
+  top: 56px;
+  margin-right: -0.1em;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 179.2px;
+  color: rgba(255,255,255,1.0);
+  letter-spacing: 0.01em;
 }
 .promotion-item img {
   float: left;
+  padding-right: 40px;
+}
+.promotion-item h3 {
+  margin: 0;
+  padding-top: 73px;
+}
+.promotion-item .btn {
+  display: inline-block;
+  width: 220px;
+}
+.promotion-btn-list {
+  position: absolute;
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  right: 80px;
+  bottom: 200px;
+}
+.promotion-btn {
+  width: 15px;
+  height: 15px;
 }
 /*избегаем выпадания margin*/
 .promotion::before {
@@ -299,6 +346,11 @@ input[type="radio"].visually-hidden {
 }
 .main-product-type-list li {
   width: 160px;
+}
+.main-product-type-list a {
+  display: block;
+  position: relative;
+  padding-top: 195px;
 }
 /*services*/
 .service-button-list {
@@ -562,11 +614,13 @@ body {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
   font-weight: 800;
+  line-height: 56px;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
 }
 .promotion-description p {
   font-size: 15px;
+  line-height: 30px;
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(70,70,70,1);
@@ -584,6 +638,9 @@ body {
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
+}
+.promotion-item .btn {
+  text-align: center;
 }
 /*main-product-navigation*/
 .main-product-type-list a,
@@ -921,8 +978,85 @@ body {
     rgba(240,197,46,0.5) 105px,
     transparent 105px, transparent 100%);
 }
-.main-product-navigation {
-  background-color: rgba(255,255,255,1);
+.promotion-description {
+  background-image: url(../img/white-line.png);
+  background-repeat: no-repeat;
+  background-position: 600px top;
+}
+.promotion-btn {
+  background-color: transparent;
+  background-image: url(../img/slider-button.svg);
+  background-size: contain;
+}
+.promotion-btn.current {
+  background-image: url(../img/slider-button-current.svg);
+}
+.main-product-navigation a::before{
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  top: 0;
+}
+.main-product-navigation .virtual-reality::before {
+  background-image: url(../img/product-navigation-icon-1.png);
+}
+.main-product-navigation .virtual-reality:hover::before,
+.main-product-navigation .virtual-reality:focus::before {
+  background-image: url(../img/product-navigation-icon-1-hover.png);
+}
+.main-product-navigation .virtual-reality:active::before {
+  background-image: url(../img/product-navigation-icon-1-active.png);
+}
+.main-product-navigation .monopod::before {
+  background-image: url(../img/product-navigation-icon-2.png);
+}
+.main-product-navigation .monopod:hover::before,
+.main-product-navigation .monopod:focus::before {
+  background-image: url(../img/product-navigation-icon-2-hover.png);
+}
+.main-product-navigation .monopod:active::before {
+  background-image: url(../img/product-navigation-icon-2-active.png);
+}
+.main-product-navigation .action-cameras::before {
+  background-image: url(../img/product-navigation-icon-3.png);
+}
+.main-product-navigation .action-cameras:hover::before,
+.main-product-navigation .action-cameras:focus::before {
+  background-image: url(../img/product-navigation-icon-3-hover.png);
+}
+.main-product-navigation .action-cameras:active::before {
+  background-image: url(../img/product-navigation-icon-3-active.png);
+}
+.main-product-navigation .fitness-bracelets::before {
+  background-image: url(../img/product-navigation-icon-4.png);
+}
+.main-product-navigation .fitness-bracelets:hover::before,
+.main-product-navigation .fitness-bracelets:focus::before {
+  background-image: url(../img/product-navigation-icon-4-hover.png);
+}
+.main-product-navigation .fitness-bracelets:active::before {
+  background-image: url(../img/product-navigation-icon-4-active.png);
+}
+.main-product-navigation .smart-watch::before {
+  background-image: url(../img/product-navigation-icon-5.png);
+}
+.main-product-navigation .smart-watch:hover::before,
+.main-product-navigation .smart-watch:focus::before {
+  background-image: url(../img/product-navigation-icon-5-hover.png);
+}
+.main-product-navigation .smart-watch:active::before {
+  background-image: url(../img/product-navigation-icon-5-active.png);
+}
+.main-product-navigation .quadrocopters::before {
+  background-image: url(../img/product-navigation-icon-6.png);
+}
+.main-product-navigation .quadrocopters:hover::before,
+.main-product-navigation .quadrocopters:focus::before {
+  background-image: url(../img/product-navigation-icon-6-hover.png);
+}
+.main-product-navigation .quadrocopters:active::before {
+  background-image: url(../img/product-navigation-icon-6-active.png);
 }
 .services {
   background-image: linear-gradient(to bottom,
