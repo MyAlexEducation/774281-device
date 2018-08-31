@@ -14,19 +14,20 @@
       <nav class="main-navigation">
         <div class="flex-container">
           <form method="post" action="https://echo.htmlacademy.ru" class="header-find-form">
-            <input type="text" placeholder="Поиск по сайту"><!-- пробел между инпутом и кнопкой
+            <label for="header-find-form-text-input"></label><!--фикс пробела между инлайн элементами
+            --><input type="text" placeholder="Поиск по сайту" id="header-find-form-text-input"><!--фикс пробела между инлайн элементами
             --><button type="submit" id="qs">Найти</button>
           </form>
           <ul class="header-user-navigation">
-            <li><a href="#">Войти</a></li>
+            <li><a href="#" class="login-link">Войти</a></li>
           </ul>
           <ul class="header-buy-navigation">
-            <li><a href="#">Сравнить</a></li>
-            <li><a href="#">Корзина</a></li>
+            <li><a href="#" class="compare">Сравнить</a></li>
+            <li><a href="#" class="cart">Корзина</a></li>
           </ul>
         </div>
         <ul class="header-site-navigation">
-          <li class="left-column"><a href="#">Каталог товаров</a>
+          <li><a href="#">Каталог товаров</a>
             <ul class="header-product-type-list">
               <li class="left-column"><a href="#">Виртуальная реальность</a></li>
               <li><a href="#">Фитнес-браслеты</a></li>
