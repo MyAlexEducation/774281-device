@@ -317,13 +317,13 @@ input[type="radio"].visually-hidden {
 .promotion-item p {
   padding: 0;
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 43px;
   padding-right: 10px;
 }
 .promotion-item .btn {
   display: inline-block;
   width: 220px;
-  margin-bottom: 67px;
+  margin-bottom: 59px;
 }
 .promotion-btn-list {
   position: absolute;
@@ -387,17 +387,22 @@ input[type="radio"].visually-hidden {
 }
 /*services*/
 .services {
-  padding-bottom: 70px;
+  padding-bottom: 72px;
 }
 .service-button-list {
-  width: 280px;
+  width: 277px;
+  padding-bottom: 45px;
 }
 .service-list {
   width: 760px;
-  padding-left: 120px;
+  padding-left: 115px;
+}
+.service-button {
+  margin-bottom: 25px;
 }
 .service-item p {
   width: 430px;
+  margin: 0;
 }
 /*временно скрываем не текущие слайды*/
 .promotion-item:not(.current),
@@ -405,11 +410,14 @@ input[type="radio"].visually-hidden {
   display: none;
 }
 .service-list h3 {
-  margin-top: 0;
+  margin: 0;
+  margin-bottom: 40px;
 }
-.service-button-list,
-.service-list {
+.service-button-list {
   padding-top: 80px;
+}
+.service-list {
+  padding-top: 83px;
 }
 .service-button-list .service-button{
   width: 160px;
@@ -928,6 +936,7 @@ body {
   background-image: url(../img/yellow-line.png);
   background-repeat: repeat no-repeat;
   background-position: center;
+  padding: 8px 0;
 }
 .btn:hover,
 .btn:focus,
@@ -1168,9 +1177,9 @@ body {
   background-size: 0;
 }
 .service-item:nth-child(1) {
-  background-image: url(../img/delivery.svg);
+  background-image: url(../img/service-delivery.png);
   background-repeat: no-repeat;
-  background-position: 550px 5px;
+  background-position: 500px -22px;
 }
 .service-item:nth-child(2) {
   background-image: url(../img/warranty.svg);
