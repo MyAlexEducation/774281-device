@@ -373,6 +373,7 @@ input[type="radio"].visually-hidden {
 .main-product-type-list {
   width: 1200px;
   margin: 0 auto;
+  margin-bottom: 82px;
   display: flex;
   justify-content: space-around;
 }
@@ -382,7 +383,7 @@ input[type="radio"].visually-hidden {
 .main-product-type-list a {
   display: block;
   position: relative;
-  padding-top: 195px;
+  padding-top: 192px;
 }
 /*services*/
 .services {
@@ -696,6 +697,7 @@ body {
 .main-product-type-list a:focus {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
+  line-height: 24px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
