@@ -126,10 +126,10 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   width: 1040px;
   padding:0 60px;
-  padding-bottom: 55px;
+  padding-bottom: 51px;
 }
 .header-logo {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 .main-navigation a {
   display: block;
@@ -137,11 +137,11 @@ input[type="radio"].visually-hidden {
 }
 .header-find-form {
   position: relative;
-  margin-bottom: 27px;
+  margin-bottom: 29px;
 }
 .header-find-form input {
-  padding-left: 40px;
-  padding-top: 17px;
+  padding-left: 38px;
+  padding-top: 17px;/*Компенсрует большую появляющуюся кнопку что-бы не дргалась форма*/
   padding-bottom: 15px;
   min-width: 315px;
 }
@@ -161,7 +161,7 @@ input[type="radio"].visually-hidden {
   min-width: 40px;
   min-height: 20px;
   left: 0;
-  bottom: 19px;
+  bottom: 17px;
 }
 .flex-container{
   display: flex;
@@ -176,10 +176,13 @@ input[type="radio"].visually-hidden {
 .header-buy-navigation{
   margin-left: auto;
 }
+.header-user-navigation,
+.header-buy-navigation {
+  padding-top: 10px;
+}
 .header-user-navigation a,
 .header-buy-navigation a {
   padding-left: 27px;
-  padding-top: 7px;
 }
 .header-buy-navigation {
   display: flex;
@@ -916,8 +919,8 @@ body {
 /*header*/
 .main-header {
   background-image: linear-gradient(to bottom,
-    transparent 20px,
-    rgba(240,197,46,0.5) 20px, rgba(240,197,46,0.5) 100%);
+    transparent 18px,
+    rgba(240,197,46,0.5) 18px, rgba(240,197,46,0.5) 100%);
 }
 
 .header-find-form label {
@@ -1051,8 +1054,8 @@ body {
 /*index-main*/
 .promotion {
   background-image: linear-gradient(to bottom,
-    rgba(240,197,46,0.5) 105px,
-    transparent 105px, transparent 100%);
+    rgba(240,197,46,0.5) 112px,
+    transparent 112px, transparent 100%);
 }
 .promotion-description {
   background-image: url(../img/white-line.png);
