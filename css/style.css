@@ -387,7 +387,8 @@ input[type="radio"].visually-hidden {
 }
 /*services*/
 .services {
-  padding-bottom: 72px;
+  padding-bottom: 68px;
+  margin-bottom: 95px;
 }
 .service-button-list {
   width: 277px;
@@ -433,6 +434,7 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 82px;
 }
 .brand-list li {
   width: 260px;
@@ -442,12 +444,47 @@ input[type="radio"].visually-hidden {
 .about-us,
 .contacts {
   width: 560px;
+  padding-top: 62px;
+}
+.about-us h2,
+.contacts h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 52px;
+}
+.about-us p,
+.contacts p {
+  margin: 0;
+  padding: 0;
+}
+.about-us p {
+  margin-bottom: 30px;
+}
+.contacts p {
+  margin-bottom: 40px;
+}
+.about-us .delivering-list {
+  padding: 0;
+  margin: 0;
+  padding-top: 36px;
+  margin-bottom: 54px;
+  list-style-type: none;
+}
+.about-us .delivering-item {
+  margin: 0;
+  padding: 0;
+  padding-left: 37px;
+  position: relative;
 }
 .about-us .btn,
 .contacts .btn {
   display: block;
   width: 260px;
   text-align: center;
+  margin-bottom: 82px;
+}
+.contacts-map img{
+  margin-bottom: 59px;
 }
 /*catalog-page*/
 /*breadcrumbs*/
@@ -749,6 +786,7 @@ body {
 .about-us .delivering-item {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
+  line-height: 40px;
   font-weight: 800;
   letter-spacing: 0;
   color: rgba(0,0,0,1);
@@ -1182,14 +1220,14 @@ body {
   background-position: 500px -22px;
 }
 .service-item:nth-child(2) {
-  background-image: url(../img/warranty.svg);
+  background-image: url(../img/service-warranty.png);
   background-repeat: no-repeat;
-  background-position: 550px 5px;
+  background-position: 500px -22px;
 }
 .service-item:nth-child(3) {
-  background-image: url(../img/credit.svg);
+  background-image: url(../img/service-credit.png);
   background-repeat: no-repeat;
-  background-position: 550px 5px;
+  background-position: 500px -22px;
 }
 .brand-item a:hover::before,
 .brand-item a:focus::before {
@@ -1217,6 +1255,15 @@ body {
 .about-us {
   background-image: url(../img/black-line.png);
   background-repeat: no-repeat;
+}
+.about-us .delivering-item::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -2px;
+  bottom: 8px;
+  background-image: url(../img/delivering-list-marker.svg);
 }
 .contacts {
   background-image: url(../img/black-line.png);
