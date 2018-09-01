@@ -282,6 +282,7 @@ input[type="radio"].visually-hidden {
   padding-right: 60px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 95px;
 }
 .promotion-list {
   counter-reset: number-slide;
@@ -294,8 +295,8 @@ input[type="radio"].visually-hidden {
   position: absolute;
   content: counter(number-slide, decimal-leading-zero);
   right: 0;
-  top: 56px;
-  margin-right: -0.1em;
+  top: 62px;
+  margin-right: -13px;
   font-family: "Gilroy", "Arial", sans-serif;
   font-weight: 800;
   font-size: 179.2px;
@@ -310,11 +311,19 @@ input[type="radio"].visually-hidden {
 }
 .promotion-item h3 {
   margin: 0;
-  padding-top: 73px;
+  padding-top: 80px;
+  margin-bottom: 18px;
+}
+.promotion-item p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 48px;
+  padding-right: 10px;
 }
 .promotion-item .btn {
   display: inline-block;
   width: 220px;
+  margin-bottom: 67px;
 }
 .promotion-btn-list {
   position: absolute;
@@ -323,11 +332,14 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   flex-wrap: wrap;
   right: 80px;
-  bottom: 200px;
+  bottom: 150px;
 }
 .promotion-btn {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
+}
+.promotion-properties {
+  border-collapse: collapse;
 }
 .promotion-properties tbody{
   width: 460px;
@@ -340,7 +352,12 @@ input[type="radio"].visually-hidden {
 .promotion-properties td,
 .promotion-properties th
  {
-  width: 160px;
+  width: 158px;
+  padding: 0;
+  margin: 0;
+}
+.promotion-properties td {
+  margin-bottom: 12px;
 }
 .promotion-properties td:nth-child(2),
 .promotion-properties th:nth-child(2){
@@ -1060,7 +1077,7 @@ body {
 .promotion-description {
   background-image: url(../img/white-line.png);
   background-repeat: no-repeat;
-  background-position: 600px top;
+  background-position: 600px 38px;
 }
 .promotion-btn {
   background-color: transparent;
