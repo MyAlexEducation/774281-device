@@ -1513,6 +1513,8 @@ body {
   background-image: url(../img/radio-on.svg);
 }
 .filters-color-checkbox:hover+label::before,
+.filters-color-checkbox:focus+label::before,
+.filters-bluetooth-radio:hover+label::before,
 .filters-bluetooth-radio:focus+label::before {
   opacity: 0.6;
 }
