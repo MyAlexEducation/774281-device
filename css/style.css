@@ -1551,6 +1551,23 @@ body {
 .sort-range-list a:not(.current):active {
   opacity: 1.0;
 }
+.catalog-item.new::before {
+  position: absolute;
+  content: "New";
+  text-transform: uppercase;
+  text-align: center;
+  right: 26px;
+  top: 29px;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 14px;
+  width: 61px;
+  line-height: 61px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: rgba(0,0,0,0.2);
+  border-radius: 50%;
+  border: 2px solid rgba(0,0,0,0.2);
+}
 .pagination-list {
   background-color: rgba(235,235,235,1);
 }
