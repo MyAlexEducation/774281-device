@@ -182,6 +182,9 @@ input[type="radio"].visually-hidden {
 .header-buy-navigation a {
   padding-left: 27px;
 }
+.header-user-navigation .exit {
+  padding-left: 19px;
+}
 .header-buy-navigation {
   display: flex;
   justify-content: flex-end;
@@ -290,6 +293,10 @@ input[type="radio"].visually-hidden {
   padding-left: 25px;
   margin-left: 38px;
   margin-bottom: 39px;
+}
+.footer-user-navigation .exit {
+  margin-left: 18px;
+  padding-left: 0;
 }
 .footer-score-tel {
   padding: 0;
@@ -1533,13 +1540,15 @@ body {
 }
 .catalog::before {
   content: "";
-  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
   background-image: linear-gradient(to bottom, rgba(219,219,219,1.0), rgba(219,219,219,1.0) 70px,
                                     rgba(239,239,239,1.0) 70px, rgba(239,239,239,1.0) 100%);
 }
 .catalog::after {
   content: "";
-  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
   background-image: linear-gradient(to bottom, rgba(235,235,235,1.0), rgba(235,235,235,1.0) 70px,
                                     transparent 70px, transparent 100%);
 }
