@@ -1594,7 +1594,9 @@ body {
   opacity: 0.6;
 }
 .filters-color-checkbox:disabled+label::before,
-.filters-bluetooth-radio:disabled+label::before {
+.filters-color-checkbox:disabled:checked+label::before,
+.filters-bluetooth-radio:disabled+label::before,
+.filters-bluetooth-radio:disabled:checked+label::before {
   opacity: 0.25;
 }
 .catalog-sort {
