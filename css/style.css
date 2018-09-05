@@ -170,9 +170,11 @@ input[type="radio"].visually-hidden {
 .header-user-navigation{
   margin-left: 20px;
   display: flex;
+  flex-wrap: wrap;
 }
 .header-buy-navigation{
   margin-left: auto;
+  flex-wrap: wrap;
 }
 .header-user-navigation,
 .header-buy-navigation {
@@ -194,6 +196,7 @@ input[type="radio"].visually-hidden {
 }
 .header-site-navigation {
   display: flex;
+  flex-wrap: wrap;
 }
 .header-site-navigation>li:first-child {
   width: 50%;
@@ -284,6 +287,7 @@ input[type="radio"].visually-hidden {
 .footer-buy-navigation,
 .footer-user-navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 .footer-user-navigation a,
@@ -360,6 +364,7 @@ input[type="radio"].visually-hidden {
 .promotion-btn-list {
   position: absolute;
   display: flex;
+  flex-wrap: wrap;
   width: 80px;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -380,6 +385,7 @@ input[type="radio"].visually-hidden {
 }
 .promotion-properties tr {
   display: flex;
+  flex-wrap: wrap;
 }
 .promotion-properties td,
 .promotion-properties th
@@ -407,6 +413,7 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   margin-bottom: 82px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .main-product-type-list li {
@@ -465,6 +472,7 @@ input[type="radio"].visually-hidden {
   width: 1200px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 82px;
 }
@@ -534,6 +542,7 @@ input[type="radio"].visually-hidden {
   width: 1040px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 45px;
 }
 .breadcrumbs a {
@@ -644,6 +653,7 @@ input[type="radio"].visually-hidden {
 .sort-range-list
  {
   display: flex;
+  flex-wrap: wrap;
 }
 .catalog-sort h3 {
   margin: 0;
@@ -717,6 +727,7 @@ input[type="radio"].visually-hidden {
 }
 .pagination-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-left: 72px;
   margin-bottom: 78px;
