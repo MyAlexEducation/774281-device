@@ -140,12 +140,12 @@ input[type="radio"].visually-hidden {
 .header-find-form input {
   padding-left: 38px;
   padding-top: 17px;/*Компенсрует большую появляющуюся кнопку что-бы не дргалась форма*/
-  padding-bottom: 15px;
+  padding-bottom: 9px;
   min-width: 315px;
 }
 .header-find-form button{
   display: none;
-  padding: 15px 20px;
+  padding: 9px 20px;
 }
 .header-find-form button:active,
 .header-find-form input:focus+button {
@@ -866,6 +866,7 @@ body {
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
+  line-height: 30px;
 }
 .header-find-form input::placeholder{
   color: rgba(0,0,0,0.3);
@@ -879,6 +880,7 @@ body {
 .header-find-form button {
   font-size: 15px;
   font-weight: 300;
+  line-height: 30px;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
 }
@@ -921,6 +923,7 @@ body {
 .footer-site-navigation {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
+  line-height: 24px;
   font-weight: 800;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -939,7 +942,7 @@ body {
 .footer-buy-navigation {
   font-size: 15px;
   font-weight: 300;
-  line-height: 26px;
+  line-height: 36px;
   letter-spacing: 0.01em;
 }
 .footer-user-navigation a,
@@ -970,6 +973,7 @@ body {
 .promotion-number {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 179.2px;
+  line-height: 179.2px;
   font-weight: 800;
   letter-spacing: 0.1em;
   color: rgba(255,255,255,1);
@@ -991,6 +995,7 @@ body {
 }
 .promotion-properties th {
   font-size: 13px;
+  line-height: 20px;
   font-weight: 300;
   letter-spacing: 0;
   color: rgba(70,70,70,1);
@@ -998,6 +1003,7 @@ body {
 .promotion-properties td {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 36px;
+  line-height: 48px;
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
@@ -1023,12 +1029,14 @@ body {
 .service-item h3{
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
+  line-height: 48px;
   font-weight: 800;
   letter-spacing: 0.02em;
   color: rgba(0,0,0,1);
 }
 .service-item p {
   font-size: 15px;
+  line-height: 30px;
   font-weight: 300;
   letter-spacing: 0.017em;
   color: rgba(70,70,70,1);
@@ -1042,6 +1050,7 @@ body {
 .about-us h2 {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
+  line-height: 48px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
@@ -1064,12 +1073,14 @@ body {
 .contacts h2 {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
+  line-height: 48px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
 }
 .contacts p {
   font-size: 15px;
+  line-height: 30px;
   font-weight: 300;
   letter-spacing: 0;
   color: rgba(70,70,70,1);
@@ -1078,6 +1089,7 @@ body {
 .catalog-page-header {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 47px;
+  line-height: 48px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
@@ -1085,6 +1097,7 @@ body {
 /*breadcrumbs*/
 .breadcrumbs a{
   font-size: 14px;
+  line-height: 24px;
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,0.3);
@@ -1103,6 +1116,7 @@ body {
 .filters h3 {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
+  line-height: 24px;
   font-weight: 800;
   letter-spacing: 0.2em;
   color: rgba(0,0,0,1);
@@ -1117,6 +1131,7 @@ body {
 }
 .catalog-filters-form label {
   font-size: 14px;
+  line-height: 40px;
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
@@ -1126,6 +1141,7 @@ body {
 .filters-price input::placeholder {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 14px;
+  line-height: 24px;
   font-weight: 300;
   letter-spacing: 0;
   text-transform: lowercase;
@@ -1135,6 +1151,7 @@ body {
 .catalog-sort h3 {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
+  line-height: 24px;
   font-weight: 800;
   letter-spacing: 0.2em;
   color: rgba(0,0,0,1);
@@ -1142,6 +1159,7 @@ body {
 }
 .sort-type-item a{
   font-size: 14px;
+  line-height: 18px;
   font-weight: 400;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,0.3);
@@ -1158,7 +1176,8 @@ body {
 }
 /*catalog-list*/
 .catalog-item-action a:not(.btn){
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 36px;
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,0.5);
@@ -1194,6 +1213,7 @@ body {
 .pagination-item a{
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
+  line-height: 24px;
   font-weight: 800;
   letter-spacing: 0.2em;
   color: rgba(0,0,0,0.3);
@@ -1223,6 +1243,7 @@ body {
 .modal-feedback-form label{
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
+  line-height: 24px;
   font-weight: 800;
   letter-spacing: 0;
   color: rgba(0,0,0,1);
