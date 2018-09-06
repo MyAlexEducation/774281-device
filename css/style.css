@@ -233,9 +233,9 @@ input[type="radio"].visually-hidden {
 .header-product-type-list {
   position: absolute;
   width: 640px;
-  padding-left: 60px;
+  margin-left: 60px;
   left: -60px;
-  padding-right: 460px;
+  margin-right: 460px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
