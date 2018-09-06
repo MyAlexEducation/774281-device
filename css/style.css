@@ -1682,6 +1682,7 @@ body {
   background-color: transparent;
   background-image: url(../img/slider-button.svg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .promotion-btn.current {
   background-image: url(../img/slider-button-current.svg);
