@@ -139,7 +139,7 @@ input[type="radio"].visually-hidden {
 }
 .header-find-form input {
   padding-left: 38px;
-  padding-top: 17px;/*Компенсрует большую появляющуюся кнопку что-бы не дргалась форма*/
+  padding-top: 17px;
   padding-bottom: 9px;
   min-width: 315px;
 }
@@ -367,7 +367,7 @@ input[type="radio"].visually-hidden {
 .promotion-list {
   counter-reset: number-slide;
 }
-.promotion-item {
+li.promotion-item {
   counter-increment: number-slide;
   position: relative;
 }
@@ -513,7 +513,21 @@ input[type="radio"].visually-hidden {
 /*скрываем не текущие слайды*/
 .promotion-item:not(.current),
 .service-item:not(.current) {
-  display: none;
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  -webkit-clip-path: inset(100%);
+
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .service-list h3 {
   margin: 0;
@@ -926,6 +940,7 @@ input[type="radio"].visually-hidden {
   top: 24px;
   right: 22px;
   opacity: 0.5;
+  z-index: 2;
 }
 .modal-close:hover,
 .modal-close:focus {
@@ -934,7 +949,17 @@ input[type="radio"].visually-hidden {
 .modal-close:active {
   opacity: 0.3;
 }
-
+.modal-map iframe {
+  position: relative;
+  z-index: 1;
+  border: none;
+}
+.modal-map p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
                        /************ШРИФТЫ************/
 
 body {
