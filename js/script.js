@@ -73,7 +73,16 @@ var close_about_us_modal = about_us_modal.querySelector(".modal-close");
 close_about_us_modal.addEventListener("click", function(evt){
   evt.preventDefault();
   about_us_modal.classList.remove("modal-show");
-})
+});
+var about_us_modal_form = about_us_modal.querySelector("form");
+var about_us_modal_form_name = about_us_modal_form.querySelector("[name=name]");
+var about_us_modal_form_email = about_us_modal_form.querySelector("[name=email]");
+var about_us_modal_form_letter = about_us_modal_form.querySelector("[name=letter]");
+about_us_modal_form.addEventListener("submit", function(evt){
+  if(!about_us_modal_form_name.value || !about_us_modal_form_email.value || !about_us_modal_form_letter.value) {
+       evt.preventDefault();
+     }
+});
 //////////////////////////////////////////////////////////////
 var contacts_map = document.querySelector(".contacts-map")
 var modal_map = document.querySelector(".modal-map");
