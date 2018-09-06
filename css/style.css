@@ -244,7 +244,7 @@ input[type="radio"].visually-hidden {
   opacity: 0;
 }
 .top-menu:hover .header-product-type-list {
-  z-index: 1;
+  z-index: 2;
   opacity: 1;
 }
 .header-product-type-list li {
@@ -362,6 +362,7 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   position: relative;
   margin-bottom: 95px;
+  z-index: 1;
 }
 .promotion-list {
   counter-reset: number-slide;
@@ -383,6 +384,7 @@ input[type="radio"].visually-hidden {
   color: rgba(255,255,255,1.0);
   letter-spacing: 0.01em;
   vertical-align: middle;
+  z-index: -1;
 }
 .promotion-item img {
   float: left;
@@ -505,6 +507,7 @@ input[type="radio"].visually-hidden {
 }
 .service-item p {
   width: 430px;
+  padding-bottom: 50px;
   margin: 0;
 }
 /*скрываем не текущие слайды*/
@@ -514,13 +517,11 @@ input[type="radio"].visually-hidden {
 }
 .service-list h3 {
   margin: 0;
+  padding-top: 73px;
   margin-bottom: 31px;
 }
 .service-button-list {
   padding-top: 80px;
-}
-.service-list {
-  padding-top: 73px;
 }
 .service-button-list .service-button{
   width: 160px;
@@ -1138,7 +1139,7 @@ body {
   font-size: 47px;
   font-weight: 800;
   line-height: 56px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
   color: rgba(0,0,0,1);
 }
 .promotion-description p {
@@ -1717,17 +1718,17 @@ body {
 .service-item:nth-child(1) {
   background-image: url(../img/service-delivery.png);
   background-repeat: no-repeat;
-  background-position: 500px -12px;
+  background-position: 500px 61px;
 }
 .service-item:nth-child(2) {
   background-image: url(../img/service-warranty.png);
   background-repeat: no-repeat;
-  background-position: 500px -22px;
+  background-position: 500px 61px;
 }
 .service-item:nth-child(3) {
   background-image: url(../img/service-credit.png);
   background-repeat: no-repeat;
-  background-position: 500px -22px;
+  background-position: 500px 61px;
 }
 .brand-item a:hover::before,
 .brand-item a:focus::before {
