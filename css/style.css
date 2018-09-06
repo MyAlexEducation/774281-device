@@ -878,6 +878,8 @@ li.promotion-item {
 /*modal*/
 .modal-map {
   width: 960px;
+  line-height: 0;
+  font-size: 0;
 }
 .modal-map p {
   margin: 0;
@@ -1413,7 +1415,7 @@ body {
 .catalog-item-name a {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 0.8;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
