@@ -909,6 +909,7 @@ input[type="radio"].visually-hidden {
 .modal-feedback {
   width: 760px;
   padding: 82px 100px;
+  padding-top: 100px;
 }
 .modal-feedback-form {
   display: -webkit-box;
@@ -924,18 +925,26 @@ input[type="radio"].visually-hidden {
   width: 100%;
   padding: 0;
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 .modal-feedback-form .left-column,
 .modal-feedback-form .right-column {
   width: 360px
 }
-.modal-feedback-form input,
+.modal-feedback-form input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  padding-left: 20px;
+}
 .modal-feedback-form textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  padding: 17px 0;
+  padding-top: 15px;
+  padding-bottom: 14px;
   padding-left: 20px;
 }
 .modal-feedback-form label {
@@ -945,7 +954,7 @@ input[type="radio"].visually-hidden {
 .modal-feedback-form .btn {
   padding-left: 10px;
   padding-right: 10px;
-  width: 180px;
+  width: 200px;
 }
 .modal-close {
   position: absolute;
@@ -1479,7 +1488,7 @@ body {
 .modal-feedback-form label {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 18px;
   font-weight: 800;
   letter-spacing: 0;
   color: rgba(0,0,0,1);
