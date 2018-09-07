@@ -819,7 +819,7 @@ input[type="radio"].visually-hidden {
   padding-top: 170px;
   background-color: rgba(238,238,238,0.7);
 }
-.catalog-item:hover .catalog-item-action { /*Возможно .catalog-item img:hover+.catalog-item-action*/
+.catalog-item:hover .catalog-item-action {
   opacity: 1;
 }
 .catalog-item-action a {
@@ -837,7 +837,12 @@ input[type="radio"].visually-hidden {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 41px;
+  margin-bottom: 45px;
+}
+.catalog-item img {
+  font-size: 0;
+  line-height: 0;
+  margin-bottom: 8px;
 }
 .catalog-item h1 {
   width: 260px;
@@ -847,7 +852,7 @@ input[type="radio"].visually-hidden {
 .catalog-item .catalog-item-price {
   width: 100px;
   margin: 0;
-  padding-top: 24px;
+  padding-top: 17px;
   text-align: right;
 }
 .pagination-list {
@@ -858,17 +863,17 @@ input[type="radio"].visually-hidden {
       flex-wrap: wrap;
   margin-left: 72px;
   margin-bottom: 78px;
-
+  margin-top: -10px;
 }
 .pagination-list a {
   display: block;
-  padding: 25px 14px;
+  padding: 23px 14px;
 }
 .pagination-list li:nth-child(2) {
   margin-left: 10px;
 }
 .pagination-list .pagination-btn {
-  padding: 25px 28px;
+  padding: 23px 28px;
 }
 .pagination-list li:first-child {
   margin-right: auto;
@@ -1415,10 +1420,13 @@ body {
 .catalog-item-action a:not(.btn):active {
   color: rgba(0,0,0,0.2);
 }
+.catalog-item-name {
+  line-height: 12px;
+}
 .catalog-item-name a {
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 18px;
-  line-height: 0.8;
+  line-height: 24px;
   font-weight: 800;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
