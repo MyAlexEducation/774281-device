@@ -360,7 +360,6 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   position: relative;
   margin-bottom: 95px;
-  z-index: 1;
 }
 .promotion-list {
   counter-reset: number-slide;
@@ -385,7 +384,6 @@ input[type="radio"].visually-hidden {
   color: rgba(255,255,255,1.0);
   letter-spacing: 0.01em;
   vertical-align: middle;
-  z-index: -1;
 }
 .promotion-item img {
   padding-right: 40px;
@@ -396,6 +394,8 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding-top: 80px;
   margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
 }
 .promotion-description {
   width: 500px;
@@ -969,6 +969,8 @@ input[type="radio"].visually-hidden {
   position: relative;
   z-index: 1;
   border: none;
+  line-height: 0;
+  font-size: 0;
 }
 .modal-map p {
   position: absolute;
