@@ -129,6 +129,7 @@ input[type="radio"].visually-hidden {
 .header-find-form {
   position: relative;
   margin-bottom: 29px;
+  font-size: 0;
 }
 .header-find-form input {
   padding-left: 38px;
