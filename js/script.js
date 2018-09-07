@@ -65,33 +65,37 @@ service_btns[2].addEventListener("click", function(evt) {
 //Оживление модалок
 var contacts_btn = document.querySelector(".contacts .btn");
 var contacts_modal = document.querySelector(".modal-feedback");
-contacts_btn.addEventListener("click", function(evt){
+contacts_btn.addEventListener("click", function(evt) {
   evt.preventDefault();
   contacts_modal.classList.add("modal-show");
 });
 var close_contacts_modal = contacts_modal.querySelector(".modal-close");
-close_contacts_modal.addEventListener("click", function(evt){
+close_contacts_modal.addEventListener("click", function(evt) {
   evt.preventDefault();
   contacts_modal.classList.remove("modal-show");
+  contacts_modal.classList.remove("modal-error");
 });
 var contacts_modal_form = contacts_modal.querySelector("form");
 var contacts_modal_form_name = contacts_modal_form.querySelector("[name=name]");
 var contacts_modal_form_email = contacts_modal_form.querySelector("[name=email]");
 var contacts_modal_form_letter = contacts_modal_form.querySelector("[name=letter]");
-contacts_modal_form.addEventListener("submit", function(evt){
+contacts_modal_form.addEventListener("submit", function(evt) {
   if(!contacts_modal_form_name.value || !contacts_modal_form_email.value || !contacts_modal_form_letter.value) {
        evt.preventDefault();
+       contacts_modal.classList.remove("modal-error");
+       contacts_modal.offsetWidth = contacts_modal.offsetWidth;
+       contacts_modal.classList.add("modal-error");
      }
 });
 //////////////////////////////////////////////////////////////
 var contacts_map = document.querySelector(".contacts-map")
 var modal_map = document.querySelector(".modal-map");
-contacts_map.addEventListener("click",function(evt){
+contacts_map.addEventListener("click",function(evt) {
   evt.preventDefault();
   modal_map.classList.add("modal-show");
 });
 var close_modal_map = modal_map.querySelector(".modal-close");
-close_modal_map.addEventListener("click", function(evt){
+close_modal_map.addEventListener("click", function(evt) {
   evt.preventDefault();
   modal_map.classList.remove("modal-show");
 });

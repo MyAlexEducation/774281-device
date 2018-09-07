@@ -2027,6 +2027,9 @@ body {
   -webkit-animation: emersion-modal 0.7s;
           animation: emersion-modal 0.7s;
 }
+.modal-error {
+  animation: fill-error 0.5s;
+}
 /*Анимации*/
 @-webkit-keyframes emersion-modal {
   0% {
@@ -2096,5 +2099,22 @@ body {
   }
   100% {
     width: 55%;
+  }
+}
+@keyframes fill-error {
+  20% {
+    transform: rotate(45deg);
+  }
+  40% {
+    transform: rotate(-45deg);
+  }
+  60% {
+    transform: rotate(15deg);
+  }
+  80% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
