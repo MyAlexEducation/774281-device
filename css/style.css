@@ -1176,6 +1176,7 @@ body {
   font-weight: 300;
   letter-spacing: 0;
   color: rgba(70,70,70,1);
+  text-align: left;
 }
 .promotion-properties td {
   font-family: "Gilroy", "Arial", sans-serif;
@@ -1184,6 +1185,7 @@ body {
   font-weight: 300;
   letter-spacing: 0.01em;
   color: rgba(0,0,0,1);
+  text-align: left;
 }
 .promotion-item .btn {
   text-align: center;
