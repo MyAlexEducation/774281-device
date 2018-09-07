@@ -417,16 +417,16 @@ li.promotion-item {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 80px;
+  width: 78px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   flex-wrap: wrap;
-  right: 80px;
+  right: 84px;
   bottom: 150px;
 }
 .promotion-btn {
-  width: 12px;
+  width: 10px;
   height: 12px;
 }
 .promotion-properties {
