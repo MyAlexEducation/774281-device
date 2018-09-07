@@ -876,6 +876,7 @@ li.promotion-item {
 }
 .modal {
   display: none;
+  z-index: 2;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -1496,7 +1497,8 @@ body {
 .btn:hover,
 .btn:focus,
 .btn:active {
-  background-color: rgba(240,197,46);
+
+  background-color: rgba(240,197,46,1.0);
 }
 /*header*/
 .main-header {
