@@ -5,7 +5,6 @@
     url(../fonts/gilroyextrabold.woff) format("woff");
   font-weight: 800;
 }
-
 @font-face {
   font-family: "Gilroy";
   src:
@@ -13,7 +12,6 @@
     url(../fonts/gilroylight.woff) format("woff");
   font-weight: 300;
 }
-
 @font-face {
   font-family: "Open Sans";
   src:
@@ -21,7 +19,6 @@
     url(../fonts/opensans.woff) format("woff");
   font-weight: 400;
 }
-
 @font-face {
   font-family: "Open Sans";
   src:
@@ -54,7 +51,6 @@
   padding: 0;
   margin: 0;
 }
-
 .main-navigation a,
 .main-product-navigation a,
 .footer-site-navigation a,
@@ -141,11 +137,12 @@ input[type="radio"].visually-hidden {
 .header-find-form button {
   display: none;
   padding: 9px 20px;
+  vertical-align: bottom;
 }
 .header-find-form button:active,
 .header-find-form input:focus+button {
   display: inline-block;
-  vertical-align: baseline;
+  vertical-align: bottom;
 }
 .header-find-form label {
   display: inline-block;
@@ -1522,7 +1519,6 @@ body {
    color: rgba(70,70,70,0.4);
  }
                                      /********ФОНЫ**********/
-
 .btn {
   background-color: transparent;
   background-image: url(../img/yellow-line.png);
@@ -1533,7 +1529,6 @@ body {
 .btn:hover,
 .btn:focus,
 .btn:active {
-
   background-color: rgba(240,197,46,1.0);
 }
 /*header*/
@@ -1738,19 +1733,15 @@ body {
 .main-product-navigation .monopod::after {
   background-image: url(../img/product-navigation-icon-2.png);
 }
-
 .main-product-navigation .action-cameras::after {
   background-image: url(../img/product-navigation-icon-3.png);
 }
-
 .main-product-navigation .fitness-bracelets::after {
   background-image: url(../img/product-navigation-icon-4.png);
 }
-
 .main-product-navigation .smart-watch::after {
   background-image: url(../img/product-navigation-icon-5.png);
 }
-
 .main-product-navigation .quadrocopters::after {
   background-image: url(../img/product-navigation-icon-6.png);
 }
@@ -2028,7 +2019,8 @@ body {
           animation: emersion-modal 0.7s;
 }
 .modal-error {
-  animation: fill-error 0.5s;
+  -webkit-animation: fill-error 0.5s;
+          animation: fill-error 0.5s;
 }
 /*Анимации*/
 @-webkit-keyframes emersion-modal {
@@ -2101,20 +2093,47 @@ body {
     width: 55%;
   }
 }
-@keyframes fill-error {
+@-webkit-keyframes fill-error {
   20% {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
   }
   40% {
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
   }
   60% {
-    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
   }
   80% {
-    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
   }
   100% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fill-error {
+  20% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  60% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  80% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
