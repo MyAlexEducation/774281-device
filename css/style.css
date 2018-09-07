@@ -1681,7 +1681,7 @@ body {
 .promotion-description {
   background-image: url(../img/white-line.png);
   background-repeat: no-repeat;
-  background-position: 600px 38px;
+  background-position: left 38px;
 }
 .promotion-btn {
   background-color: transparent;
